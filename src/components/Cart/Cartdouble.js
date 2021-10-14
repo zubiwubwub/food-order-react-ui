@@ -1,3 +1,3 @@
 const CartDouble = (props) => {
-  return <h1>Goodo</h1>;
+  return <h1>Go</h1>;
 };
