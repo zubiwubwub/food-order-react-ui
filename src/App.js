@@ -9,8 +9,6 @@ import CartContext from './store/cart-context';
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
 
-  const ctx = useContext(CartContext);
-
   const showCartHandler = () => {
     setCartIsShown(true);
   };
